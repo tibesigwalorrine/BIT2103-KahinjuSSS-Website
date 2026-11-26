@@ -19,6 +19,9 @@
 				<li><a href="<?php echo esc_url( kss_page_url( 'gallery' ) ); ?>">Gallery</a></li>
 				<li><a href="<?php echo esc_url( kss_page_url( 'news-events' ) ); ?>">News and Events</a></li>
 				<li><a href="<?php echo esc_url( kss_page_url( 'contact-us' ) ); ?>">Contact Us</a></li>
+				
+				<li><a href="<?php echo esc_url( wp_login_url() ); ?>">Staff Login</a></li>
+
 			</ul>
 		</div>
 		<div>
@@ -48,3 +51,6 @@
 <?php wp_footer(); ?>
 </body>
 </html>
+
+<p style="margin-top: 8px;"><a href="<?php echo esc_url( wp_login_url() ); ?>">Staff Login</a></p>
+
