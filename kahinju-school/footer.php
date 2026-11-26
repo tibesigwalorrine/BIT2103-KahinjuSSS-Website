@@ -48,3 +48,6 @@
 <?php wp_footer(); ?>
 </body>
 </html>
+
+<p style="margin-top: 8px;"><a href="<?php echo esc_url( wp_login_url() ); ?>">Staff Login</a></p>
+
